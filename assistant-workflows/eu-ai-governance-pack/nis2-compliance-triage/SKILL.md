@@ -63,7 +63,7 @@ An entity outside both annexes is as a rule out of scope; still check whether th
 
 ### Step 2 - size-cap rule and size-independent exceptions (Article 2)
 
-Size-cap rule (Article 2(1)): the directive covers Annex I or II entities that qualify as medium-sized enterprises under Article 2 of the Annex to Recommendation 2003/361/EC, or exceed the ceilings for medium-sized enterprises. Apply the Recommendation's test, not a shortcut:
+Size-cap rule (Article 2(1)): the directive covers Annex I or II entities that qualify as medium-sized enterprises under Article 2 of the Annex to Recommendation 2003/361/EC, or exceed the ceilings for medium-sized enterprises. The test, from the Annex to the Recommendation:
 
 - Headcount and financial ceilings (Annex, Article 2): small - fewer than 50 persons AND annual turnover and/or annual balance sheet total not exceeding EUR 10 million; medium-sized - fewer than 250 persons AND annual turnover not exceeding EUR 50 million and/or annual balance sheet total not exceeding EUR 43 million. So an entity is at least medium-sized if it has 50 or more persons, or if BOTH its turnover AND its balance sheet total exceed EUR 10 million; it exceeds the medium-sized ceilings if it has 250 or more persons, or if its turnover exceeds EUR 50 million AND its balance sheet total exceeds EUR 43 million.
 - Aggregation (Annex, Articles 3 and 6(2)): add the data of partner enterprises in proportion to the percentage interest in the capital or voting rights, whichever is greater (for cross-holdings, the greater percentage), and 100% of the data of linked enterprises. Member states may take into account the entity's degree of independence from its partner or linked enterprises (recital 16 of the directive) - [TO VERIFY in the transposition].
@@ -91,7 +91,7 @@ Run the Article 3(1) paths in order; the first one that fits makes the entity es
 6. Critical entities under the CER Directive (Article 2(3); Article 3(1)(f)).
 7. If the member state so provides, entities it identified before 16 January 2023 as operators of essential services under the NIS1 Directive or national law (Article 3(1)(g)).
 
-Important (Article 3(2)): every in-scope Annex I or II entity that does not qualify as essential - including medium-sized Annex I entities, medium and large Annex II entities, non-qualified trust service providers, and entities identified under Article 2(2)(b) to (e) as important rather than essential. Record which path decided the category, never only "Annex plus size". The final national split is set by the implementing act - tag the national classification [TO VERIFY] until step 0 confirms it. Why it matters: different supervision (ex ante versus ex post) and different penalty ceilings (step 7).
+Important (Article 3(2)): every in-scope Annex I or II entity that does not qualify as essential - including medium-sized Annex I entities, medium and large Annex II entities, non-qualified trust service providers, and entities identified under Article 2(2)(b) to (e) as important rather than essential. Record on the card which path decided the category. The final national split is set by the implementing act - tag the national classification [TO VERIFY] until step 0 confirms it. Why it matters: different supervision (ex ante versus ex post) and different penalty ceilings (step 7).
 
 ### Step 4 - sector-specific Union acts (Article 4), then the ten risk-management measures (Article 21(2))
 
@@ -116,7 +116,7 @@ For each measure ask the user for status (implemented / partial / missing / unkn
 
 Significant incident (Article 23(3)): it has caused or is capable of causing severe operational disruption of the services or financial loss for the entity, OR it has affected or is capable of affecting other natural or legal persons by causing considerable material or non-material damage.
 
-The clock (Article 23(4)). The first two deadlines run from becoming aware of the significant incident and are outer limits, not targets - each submission is due WITHOUT UNDUE DELAY and in any event within the limit:
+The clock (Article 23(4)). The first two deadlines run from becoming aware of the significant incident. Each is the latest permitted time; the submission itself is due without undue delay:
 
 - without undue delay, at the latest within 24 hours - early warning to the CSIRT or competent authority (including whether unlawful or malicious action is suspected and whether cross-border impact is possible),
 - without undue delay, at the latest within 72 hours - incident notification (updating the early warning; initial assessment of severity, impact, and indicators of compromise). Exception: a trust service provider must submit the incident notification for a significant incident affecting the provision of its trust services within 24 hours, not 72,
